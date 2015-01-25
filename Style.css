@@ -72,7 +72,10 @@ h1 {
     margin: auto;
     -webkit-font-smoothing: antialiased;
 }
-
+h1 a{
+    text-decoration: none;
+    color: #333333;
+}
 h2 {
     height: 27px;
     font-family: 'Roboto', sans-serif;
@@ -85,6 +88,10 @@ h2 {
     font-style: normal;
     color: black;
     margin: auto;
+}
+h2 a{
+    text-decoration: none;
+    color: #333333;
 }
 
 h3 a {
