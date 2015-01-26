@@ -21,13 +21,13 @@ nav {
 
 ul.headBar {
     display: inline;
-    width: 100%;
+    width: auto;
     height: 100%;
     position: relative;
 }
 
 .headBar>li {
-    margin-left: 60px;
+    margin-left: 4em;
     display: inline;
    position: relative;
     top: -9px;
@@ -162,12 +162,12 @@ ul.bottomList {
 }
 
 .bottomList>li {
-    margin-left: -2px;
+    margin-left: -.2em;
     display: inline;
     height: 200px;
-    width: 24.70%;
-    border-right: 3px solid white;
-    border-left: 3px solid white;
+    width: 24.75%;
+    border-right: .2em solid white;
+    border-left: .2em solid white;
     text-align: center;
     float: left;
 }
@@ -192,6 +192,7 @@ li.item3 {
 
 li.item4 {
     background-image: url("http://images.apple.com/v/home/bl/images/promo_imac_large.jpg");
+    margin-right: 0px;
     background-repeat: no-repeat;
     background-position: 50% 0%;
 }
