@@ -26,14 +26,44 @@ ul.headBar {
     position: relative;
 }
 
+@media  screen and (min-width:995px){
 .headBar>li {
-    margin-left: 4em;
+    margin-left: 60px;
     display: inline;
    position: relative;
     top: -9px;
     text-align: center;
 }
+}
 
+@media only screen and (max-width:995px){
+.headBar>li {
+    margin-left: 40px;
+    display: inline;
+   position: relative;
+    top: -9px;
+    text-align: center;
+}
+}
+@media only screen and (max-width:850px){
+.headBar>li {
+    margin-left: 30px;
+    display: inline;
+   position: relative;
+    top: -9px;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width:730px){
+.headBar>li {
+    margin-left: 20px;
+    display: inline;
+   position: relative;
+    top: -9px;
+    text-align: center;
+}
+}
 .headBar>li.logo {
     text-align: center;
     margin-left: 0px;
