@@ -14,7 +14,7 @@ header {
 nav {
     width: 75% height: 30px;
     position: relative;
-    top: 17px;
+    top: 1.17em;
 }
 
 ul.headBar {
@@ -40,7 +40,7 @@ ul.headBar {
 .headBar>li a {
     text-decoration: none;
     font-family: "sans-serif";
-    font-size: 15px;
+    font-size:1em;
     color: #F1F1F1;
 }
 
