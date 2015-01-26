@@ -13,6 +13,8 @@ header {
 
 nav {
     width: 75% height: 30px;
+    display: table;
+    margin: 0 auto;
     position: relative;
     top: 1.17em;
 }
@@ -27,16 +29,22 @@ ul.headBar {
 .headBar>li {
     margin-left: 60px;
     display: inline;
-    float: left;
+   position: relative;
+    top: -9px;
     text-align: center;
 }
 
 .headBar>li.logo {
-    margin-left: 200px;
+    text-align: center;
+    margin-left: 0px;
     position: relative;
     top: -4px;
 }
 
+.headBar>li.logo2 {
+    position: relative;
+    top: -4px;
+}
 .headBar>li a {
     text-decoration: none;
     font-family: "sans-serif";
